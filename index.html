@@ -7,7 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!--Import CSS-->
-    <link type="text/css" rel="stylesheet" href="style.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="style.css" />
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -43,26 +43,34 @@
           <h3 style="padding:20px;">CASES & CLIENTS</h3>
           <p style="padding:10px 20px;">In Yacc.io we are capable of handling a wide variety of tasks within the area of software engineering. This includes product development, cloud computing, IT deployment and -infrastructure management, database setup, and software maintenance.</p>
         </div>
-        <div class="row">
-          <a href="#expanded-case" onclick="expandCase(case1)">
+        <div class="row" id="caseRow">
+
             <div class="col l3 s12">
+              <a href="#caseRow" id="caseLink1" onclick="expandCase1()">
+                <div class="valign">
+                  <img src="assets/Rovsing-app-light.png" alt="rovsing-img" />
+                </div>
+                <span class="dark-light btn-case">Explore our solution</span>
+              </a>
+            </div>
+
+            <div class="col l3 s12">
+              <a href="#caseRow" id="caseLink2" onclick="expandCase2()">
+                <div class="valign">
+                  <img src="assets/ontame.png" alt="ontame-img" />
+                </div>
+                <span class="dark-light btn-case">Explore our solution</span>
+              </a>
+            </div>
+
+
+          <div class="col l3 s12">
+            <a href="#caseRow" id="caseLink3" onclick="expandCase3()">
               <div class="valign">
-                <img src="assets/Rovsing-app-light.png" />
+                <img src="assets/eskat.png" alt="eskat-img" />
               </div>
-              <a href="#expanded-case" onclick="expandCase(case1)" class="dark-light btn-case">Explore our solution</a>
-            </div>
-          </a>
-          <div class="col l3 s12">
-            <div class="valign">
-              <img src="assets/ontame.png" />
-            </div>
-            <a class="dark-light btn-case" onclick="expandCase(case2)">Read about the product</a>
-          </div>
-          <div class="col l3 s12">
-            <div class="valign">
-              <h2>E-skat</h2>
-            </div>
-            <a class="dark-light btn-case" onclick="expandCase(case3)">Read about the product</a>
+              <span class="dark-light btn-case">Explore our integration</span>
+            </a>
           </div>
         </div>
 
@@ -70,6 +78,7 @@
     </div>
 
     <div class="black collapsed-case" id="expanded-case">
+      <span class="close" onclick="closeCase()">&#10005;</span>
       <div class="container section">
         <div class="case-text" id="case1">
           <h3 style="padding:20px;">Rovsing Applications</h3>
