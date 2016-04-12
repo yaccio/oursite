@@ -12,6 +12,7 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>YACC.io</title>
+    <meta charset="UTF-8">
 
     <!-- OG Meta for social media -->
     <meta property=”og:title” content=”YACC.io”/>
@@ -43,26 +44,47 @@
           <p style="padding:10px 20px;">In Yacc.io we are capable of handling a wide variety of tasks within the area of software engineering. This includes product development, cloud computing, IT deployment and -infrastructure management, database setup, and software maintenance.</p>
         </div>
         <div class="row">
-          <div class="col l3">
-            <div class="valign">
-              <img src="assets/Rovsing-app-light.png" />
+          <a href="#expanded-case" onclick="expandCase(case1)">
+            <div class="col l3 s12">
+              <div class="valign">
+                <img src="assets/Rovsing-app-light.png" />
+              </div>
+              <a href="#expanded-case" onclick="expandCase(case1)" class="dark-light btn-case">Explore our solution</a>
             </div>
-            <p class="dark-light btn-case">Read about the product</p>
-          </div>
-          <div class="col l3">
+          </a>
+          <div class="col l3 s12">
             <div class="valign">
               <img src="assets/ontame.png" />
             </div>
-            <p class="dark-light btn-case">Read about the product</p>
+            <a class="dark-light btn-case" onclick="expandCase(case2)">Read about the product</a>
           </div>
-          <div class="col l3">
+          <div class="col l3 s12">
             <div class="valign">
               <h2>E-skat</h2>
             </div>
-            <p class="dark-light btn-case">Read about the product</p>
+            <a class="dark-light btn-case" onclick="expandCase(case3)">Read about the product</a>
           </div>
         </div>
 
+      </div>
+    </div>
+
+    <div class="black collapsed-case" id="expanded-case">
+      <div class="container section">
+        <div class="case-text" id="case1">
+          <h3 style="padding:20px;">Rovsing Applications</h3>
+          <p style="padding:10px 20px;">Yacc.io is a company of young software developers from Copenhagen, Denmark. We specialize in building low-cost software solutions that satisfy the customer needs. We achieve this through close collaboration with our clients, as well as by using open source technologies whenever possible. The end result is robust and cost-efficient IT.</p>
+        </div>
+
+        <div class="case-text" id="case2">
+          <h3 style="padding:20px;">Ontame</h3>
+          <p style="padding:10px 20px;">Yacc.io is a company of young software developers from Copenhagen, Denmark. We specialize in building low-cost software solutions that satisfy the customer needs. We achieve this through close collaboration with our clients, as well as by using open source technologies whenever possible. The end result is robust and cost-efficient IT.</p>
+        </div>
+
+        <div class="case-text" id="case3">
+          <h3 style="padding:20px;">E-skat data</h3>
+          <p style="padding:10px 20px;">Yacc.io is a company of young software developers from Copenhagen, Denmark. We specialize in building low-cost software solutions that satisfy the customer needs. We achieve this through close collaboration with our clients, as well as by using open source technologies whenever possible. The end result is robust and cost-efficient IT.</p>
+        </div>
       </div>
     </div>
 
@@ -96,13 +118,23 @@
               <img src="assets/based.jpg" />
           </div>
           <div class="col l4 s6">
-              <img src="assets/based.jpg" />
+              <img src="assets/employee8.jpg" />
           </div>
         </div>
       </div>
     </div>
 
+    <footer>
+      <div class="light">
+        <div class="container">
+          <p>© 2016 YACC.io, All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
     <!--Import JS-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="script.js"></script>
 
   </body>
 </html>

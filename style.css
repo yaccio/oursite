@@ -220,9 +220,14 @@ nav .right {
 
 .btn-case {
 	padding: 8px;
-	opacity: 0.8;
+	opacity: 0.85;
 	display: inline-block;
 	border-radius: 3px;
+	cursor: pointer;
+}
+
+.btn-case:hover {
+	opacity: 1.0;
 }
 
 .valign {
@@ -255,11 +260,31 @@ nav .right {
 	opacity: 1;
 }
 
+.collapsed-case {
+	height: 0;
+	padding: 0;
+	transition: height ease 1.0s;
+}
+
+.expanded-case {
+	height: 400px;
+	padding: inherit;
+}
+
+footer {
+	padding: 10px 0;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
 /* --- Media queries --- */
 
 @media (max-width: 1000px) {
 	.row .s6 {
 		width: 50%;
+	}
+	.row .s12 {
+		width: 100%;
 	}
   .case-text {
     width: 100%;
@@ -280,4 +305,11 @@ nav .right {
 	nav .right {
 		display: none;
 	}
+	.cases-container img {
+		padding: 0 10px;
+	}
+}
+
+@media (max-width: 1000px) {
+
 }
