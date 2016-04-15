@@ -255,6 +255,7 @@ nav .right {
 	line-height: 2;
 	font-size: 1.1em;
 	letter-spacing: 1.2px;
+	padding:10px 0;
 }
 
 .case-text h3 {
@@ -262,6 +263,7 @@ nav .right {
 	letter-spacing: 4px;
 	text-transform: uppercase;
 	padding-bottom: 10px;
+	padding:20px 0;
 }
 
 .case-text h1 {
@@ -424,11 +426,11 @@ footer p {
 /* --- Media queries --- */
 
 @media (max-width: 1000px) {
-	.row .s6 {
+	.row .s2 {
 		width: 50%;
 		box-sizing: border-box;
 	}
-	.row .s12 {
+	.row .s1 {
 		width: 100%;
 		box-sizing: border-box;
 	}
