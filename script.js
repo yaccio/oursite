@@ -10,6 +10,9 @@ function expandCase1(){
     document.getElementById("case1").style.display = 'block';
     document.getElementById("case2").style.display = 'none';
     document.getElementById("case3").style.display = 'none';
+    document.getElementById("side-case1").style.opacity = '1.0';
+    document.getElementById("side-case2").style.opacity = '0.5';
+    document.getElementById("side-case3").style.opacity = '0.5';
 }
 
 function expandCase2(){
@@ -22,6 +25,9 @@ function expandCase2(){
     document.getElementById("case1").style.display = 'none';
     document.getElementById("case2").style.display = 'block';
     document.getElementById("case3").style.display = 'none';
+    document.getElementById("side-case2").style.opacity = '1.0';
+    document.getElementById("side-case1").style.opacity = '0.5';
+    document.getElementById("side-case3").style.opacity = '0.5';
 }
 
 function expandCase3(){
@@ -34,6 +40,9 @@ function expandCase3(){
     document.getElementById("case2").style.display = 'none';
     document.getElementById("case1").style.display = 'none';
     document.getElementById("case3").style.display = 'block';
+    document.getElementById("side-case3").style.opacity = '1.0';
+    document.getElementById("side-case1").style.opacity = '0.5';
+    document.getElementById("side-case2").style.opacity = '0.5';
 }
 
 function closeCase(){
