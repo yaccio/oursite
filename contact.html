@@ -26,20 +26,25 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
   </head>
 
-  <body>
+  <body class="dk">
     <main>
     <nav class="light">
       <a href="index.html"><span class="logo">YACC.IO</span></a>
       <div class="nav-links">
-        <span class="right"><a href="#section-contact">Contact</a></span>
+        <span class="right"><a href="contact.html"><span lang="en">Contact</span><span lang="dk">Kontakt</span></a></span>
         <span class="right"><a href="index.html#section-cases">Cases</a></span>
         <span class="right hide"><a href="index.html">Jobs</a></span>
+        <span class="right lang-en"><a onclick="document.body.className='en'"><img src="assets/gb.svg" />EN</a></span>
+        <span class="right lang-dk"><a onclick="document.body.className='dk'"><img src="assets/dk.svg" />DK</a></span>
       </div>
     </nav>
     <div class="cover cover-contact">
       <div class="container">
         <div class="text-col dark-light">
-          <p>We're always working. Just call us...</p>
+          <p>
+            <span lang="en">We're always working. Just call us...</span>
+            <span lang="dk">Vi arbejder altid. Bare ring...</span>
+          </p>
         </div>
       </div>
     </div>
@@ -49,15 +54,29 @@
       <div class="container section">
         <div class="row">
           <div class="l2 s1 case-text">
-            <h3>Contact us</h3>
-            <p>Feel free to email us about questions, business enquiries, or to just say hello!</p>
+            <h3>
+              <span lang="en">CONTACT US</span>
+              <span lang="dk">kontakt os</span>
+            </h3>
+            <p>
+              <span lang="en">Feel free to email us about questions, business enquiries, or to just say hello!</span>
+              <span lang="dk">Du er velkommen til at kontakte os om spørgsmål, forespørgsler eller bare sige hej!</span>
+            </p>
             <a href="mailto:info@yacc.io"><h1>info@yacc.io</h1></a>
+            <p>
+              <span lang="en">or call our office @ the phonenumber below</span>
+              <span lang="dk">eller ringe til vores kontor på telefonnummeret nedenfor</span>
+            </p>
+            <a href="tel:+4530134439"><h1>+45 30 13 44 39</h1></a>
           </div>
 
           <div class="l2 s1 case-text">
-            <h3>Our Office</h3>
+            <h3>
+              <span lang="en">Our Office</span>
+              <span lang="dk">Vores Kontor</span>
+            </h3>
             <p>Østbanegade 9
-            <br />2100 Copenhagen
+            <br />2100 <span lang="en">Copenhagen</span><span lang="dk">København</span>
             <br />Denmark<p>
           </div>
         </div>

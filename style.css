@@ -61,6 +61,16 @@ main {
 	flex: 1 0 auto;
 }
 
+body:not(.en) :lang(en),
+body:not(.dk) :lang(dk),
+body:not(.fr) :lang(fr) {
+    display: none;
+}
+
+body.en .lang-en, body.dk .lang-dk {
+	display: none;
+}
+
 .dark {
 	background-color: #002b36;
 	color: #839496;
@@ -182,6 +192,7 @@ h3 {
 nav .nav-links a {
 	opacity: 0.65;
 	transition: opacity ease 0.3s;
+	cursor: pointer;
 }
 
 nav .nav-links a:hover {
@@ -189,6 +200,11 @@ nav .nav-links a:hover {
 	color: #6c71c4;
 	color: #2aa198;*/
 	opacity: 1.0;
+}
+
+nav .nav-links img {
+	height: 12px;
+	margin-right: 5px;
 }
 
 nav {
