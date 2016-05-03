@@ -1,4 +1,14 @@
 #Ontame.io - Danish
+Ontame.io udvikler en rekruttering, markedsføring og analyse platform. Platformen
+indsamler og analyserer en stor mængde data fra flere kilder, og som
+selskabets kundebase voksede, voksede den mængde data deres platform skulle behandle tilsvarende.
+Denne hurtige stigning i data var begyndt at blive et problem for
+Ontame.io oprindelige platform.
+
+Yacc.io har bistået Ontame.io med skalering af deres platform til at håndtere den stadigt
+stigende data belastning. Dette indebar en større redesign og reimplementering af
+deres eksisterende databehandling og indsamlingssystem. Resultatet er en platform
+der behandler data en væsenlig del hurtigere end den oprindelige.
 
 #Ontame.io - English
 Ontame.io develops a recruitment marketing and analytics platform. The platform
