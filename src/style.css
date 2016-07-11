@@ -336,8 +336,8 @@ nav .right {
 }
 
 .staff img {
-	-webkit-filter: grayscale(1);
-  filter: grayscale(1);
+	/*-webkit-filter: grayscale(1);
+  filter: grayscale(1);*/
 	transition: transform 0.4s;
 }
 
