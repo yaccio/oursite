@@ -520,15 +520,15 @@ footer p {
 
 }
 
-#lasse_position {
+.position #lasse_position {
   display:inline;
 }
-#lasse_position:hover {
+.position:hover #lasse_position {
   display:none;
 }
-#lasse_hidden {
+.position #lasse_hidden {
   display:none;
 }
-#lasse_hidden:hover {
+.position:hover #lasse_hidden {
   display:inline;
 }
