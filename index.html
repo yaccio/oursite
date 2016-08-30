@@ -27,13 +27,15 @@
   </head>
 
   <body class="dk">
+    <script src="langLoader.js"></script>
+
     <nav class="light">
       <a href="index.html"><span class="logo">YACC.IO</span></a>
       <div class="nav-links">
         <span class="right"><a href="contact.html"><span lang="en">Contact</span><span lang="dk">Kontakt</span></a></span>
         <span class="right"><a href="#section-cases">Cases</a></span>
-        <span class="right lang-en"><a onclick="document.body.className='en'"><img src="assets/gb.svg" />EN</a></span>
-        <span class="right lang-dk"><a onclick="document.body.className='dk'"><img src="assets/dk.svg" />DK</a></span>
+        <span class="right lang-en"><a onclick="changeLanguage('en');"><img src="assets/gb.svg" />EN</a></span>
+        <span class="right lang-dk"><a onclick="changeLanguage('dk');"><img src="assets/dk.svg" />DK</a></span>
         <span class="right hide"><a href="index.html">Jobs</a></span>
       </div>
     </nav>
@@ -299,6 +301,5 @@
     <!--Import JS-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="script.js"></script>
-
   </body>
 </html>

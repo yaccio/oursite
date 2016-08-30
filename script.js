@@ -1,4 +1,17 @@
-console.log("peace");
+console.log("peace out fellow developers. Welcome to Yacc.io's webpage :)");
+
+function changeLanguage(lang){
+  if(lang == "en"){
+    localStorage.clear();
+    localStorage.lang='en';
+    document.body.className='en';
+  }
+  if(lang == "dk"){
+    localStorage.clear();
+    localStorage.lang='dk';
+    document.body.className='dk';
+  }
+}
 
 function expandCase1(){
   console.log("clicked");
@@ -53,9 +66,6 @@ function closeCase(){
       el.className = el.className.replace( /(?:^|\s)expanded-case(?!\S)/g , '' );
     }
 }
-
-document.getElementById("caseLink1").addEventListener("click", expandCase1);
-
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
