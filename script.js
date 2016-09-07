@@ -13,50 +13,33 @@ function changeLanguage(lang){
   }
 }
 
-function expandCase1(){
-  console.log("clicked");
+function expandCase(i){
+  console.log("clicked new func");
 
+  // Set Class that will expand the case section
   var el = document.getElementById('expanded-case');
-    if(el) {
-      el.className += el.className ? ' expanded-case' : 'expanded-case';
-    }
-    document.getElementById("case1").style.display = 'block';
-    document.getElementById("case2").style.display = 'none';
-    document.getElementById("case3").style.display = 'none';
-    document.getElementById("side-case1").style.opacity = '1.0';
-    document.getElementById("side-case2").style.opacity = '0.5';
-    document.getElementById("side-case3").style.opacity = '0.5';
-}
+  if(el) {
+    el.className += el.className ? ' expanded-case' : 'expanded-case';
+  }
 
-function expandCase2(){
-  console.log("clicked");
+  // Hide all case texts
+  var cases = document.querySelectorAll('.case-hide');
+  Array.prototype.forEach.call(cases, function(elements, index) {
+    elements.style.display = 'none';
+  });
 
-  var el = document.getElementById('expanded-case');
-    if(el) {
-      el.className += el.className ? ' expanded-case' : 'expanded-case';
-    }
-    document.getElementById("case1").style.display = 'none';
-    document.getElementById("case2").style.display = 'block';
-    document.getElementById("case3").style.display = 'none';
-    document.getElementById("side-case2").style.opacity = '1.0';
-    document.getElementById("side-case1").style.opacity = '0.5';
-    document.getElementById("side-case3").style.opacity = '0.5';
-}
+  // Show the correct case (number i)
+  document.getElementById("case" + i).style.display = 'block';
 
-function expandCase3(){
-  console.log("clicked");
+  // Set opacity on all side cases
+  var sideCases = document.querySelectorAll('.side-case');
+  Array.prototype.forEach.call(sideCases, function(elements, index) {
+    elements.style.opacity = '0.5';
+  });
 
-  var el = document.getElementById('expanded-case');
-    if(el) {
-      el.className += el.className ? ' expanded-case' : 'expanded-case';
-    }
-    document.getElementById("case2").style.display = 'none';
-    document.getElementById("case1").style.display = 'none';
-    document.getElementById("case3").style.display = 'block';
-    document.getElementById("side-case3").style.opacity = '1.0';
-    document.getElementById("side-case1").style.opacity = '0.5';
-    document.getElementById("side-case2").style.opacity = '0.5';
-}
+  // Set the correct opacity on the correct case
+  document.getElementById("side-case" + i).style.opacity = '1.0';
+};
 
 function closeCase(){
   console.log("clicked");
