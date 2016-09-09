@@ -304,6 +304,21 @@ nav .right {
 	opacity: 1.0;
 }
 
+.btn-case-small {
+	display: none;
+	margin: 0 auto;
+}
+
+@media(max-width: 1000px){
+	.btn-case {
+		display: none;
+	}
+	.btn-case-small,
+	.btn-case-small .btn-case {
+		display: block;
+	}
+}
+
 .valign {
 	display: flex;
 	-webkit-align-items: center;
@@ -314,6 +329,12 @@ nav .right {
 
 .case-item {
 	height: 150px;
+}
+
+@media(max-width: 1000px){
+	.case-item {
+		height: 16vw;
+	}
 }
 
 .case-side-nav {
@@ -478,7 +499,7 @@ footer p {
   }
   .case-side-nav img {
     display: inline-block;
-    width: 27vw;
+    width: 40vw;
     padding: 0 10px;
     box-sizing: border-box;
   }
