@@ -282,8 +282,9 @@ nav .right {
 	font-size: 1.6em;
 	letter-spacing: 4px;
 	text-transform: uppercase;
+	padding: 20px 0;
 	padding-bottom: 10px;
-	padding:20px 0;
+  line-height: 1.6em;
 }
 
 .case-text h1 {
@@ -304,6 +305,22 @@ nav .right {
 	opacity: 1.0;
 }
 
+.btn-case-small {
+	display: none;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+@media(max-width: 1000px){
+	.btn-case {
+		display: none;
+	}
+	.btn-case-small,
+	.btn-case-small .btn-case {
+		display: block;
+	}
+}
+
 .valign {
 	display: flex;
 	-webkit-align-items: center;
@@ -314,6 +331,12 @@ nav .right {
 
 .case-item {
 	height: 150px;
+}
+
+@media(max-width: 1000px){
+	.case-item {
+		height: 16vw;
+	}
 }
 
 .case-side-nav {
@@ -333,6 +356,12 @@ nav .right {
 
 .case-side-nav img:hover {
 	opacity: 1.0;
+}
+
+@media(max-width: 1000px){
+	.case-side-nav {
+		display: none;
+	}
 }
 
 .staff img {
@@ -478,7 +507,7 @@ footer p {
   }
   .case-side-nav img {
     display: inline-block;
-    width: 27vw;
+    width: 40vw;
     padding: 0 10px;
     box-sizing: border-box;
   }
