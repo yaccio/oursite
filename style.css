@@ -278,6 +278,14 @@ nav .right {
 	padding:10px 0;
 }
 
+.case-text a {
+	text-decoration: underline;
+}
+
+.case-text a:hover {
+	color: #6c71c4;
+}
+
 .case-text h3 {
 	font-size: 1.6em;
 	letter-spacing: 4px;
