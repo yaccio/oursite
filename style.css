@@ -105,12 +105,16 @@ h3 {
 	font-size: 2em;
 }
 
+.underline {
+	text-decoration: underline !important;
+}
+
 .container {
   width: 85% !important;
   margin: 0 auto;
 }
 
-.section {
+section {
 	padding: 50px 0;
 }
 
@@ -118,10 +122,6 @@ h3 {
 	width: 100%;
 	box-sizing: border-box;
 }
-
-/*.row .col img:hover {
-	opacity: 1.0;
-}*/
 
 .cases-container img {
 	padding: 0px 50px;
@@ -256,9 +256,10 @@ nav .right {
 	font-family: 'Roboto Slab', serif;
 }
 
-.text-col p {
+.text-col h1 {
   width: 18em;
   padding: 20px 50px;
+	font-weight: normal;
 }
 
 .black {
@@ -282,6 +283,10 @@ nav .right {
 	text-decoration: underline;
 }
 
+.contact-container a {
+	text-decoration: none;
+}
+
 .case-text a:hover {
 	color: #6c71c4;
 }
@@ -299,6 +304,13 @@ nav .right {
 	font-size: 2.5em;
 	padding: 20px 0;
 	font-weight: 100;
+}
+
+a.contact-link h2 {
+	font-size: 2.5em;
+	margin: 20px 0;
+	font-weight: 100;
+	display: inline-block;
 }
 
 .btn-case {
