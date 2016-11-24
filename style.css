@@ -241,9 +241,20 @@ nav .right {
 	background-position: bottom;
 }
 
+@media (max-width: 1000px) {
+	.cover {
+		height: 45vh;
+	}
+}
+
 .cover-contact {
 	background-image: url('./assets/contact.jpg') !important;
 	background-position: center;
+}
+
+.cover-cases {
+	background-image: url('./assets/cases.jpg') !important;
+	background-position: bottom;
 }
 
 .text-col {
@@ -506,15 +517,12 @@ footer p {
   .case-text {
     width: 100%;
   }
-	.cover {
-		height: 80vh;
-	}
 	.text-col {
 		font-size: 7vw;
 		line-height: 8vw;
 		text-align: center;
 	}
-	.text-col p {
+	.text-col h1 {
     width: inherit;
     width: auto;
     padding: 20px 20px;
