@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+          xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+    <!--Import Google Fonts-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!--Import CSS-->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" media="screen" title="no title" charset="utf-8">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>{% if page.title == 'index' %}Yacc.io: A Young, Modern, and Professional IT Consulting Company{% else %}{{ page.title }} | Yacc.io{% endif %}</title>
+    <meta name="description" content="Yacc.io handles development and consulting of IT for small and large businesses alike. We develop software efficiently with the appropriate technologies for your specific needs.">
+    <meta charset="UTF-8">
+
+    <!-- OG Meta for social media -->
+    <meta property="og:title" content="{{ page.title }} | Yacc.io: A Young, Modern, and Professional IT Consulting Company"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="http://www.yacc.io/assets/intro-bg.jpg"/>
+    <meta property="og:url" content="http://www.yacc.io{{ page.url }}"/>
+    <meta property="og:description" content="Yacc.io handles development and consulting of IT for small and large businesses alike. We develop software efficiently with the appropriate technologies for your specific needs."/>
+    <meta name="google-site-verification" content="2etWiqGi92EapA7IatpXaOjM7mPswS33XW4uvdpbm2E" />
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16" />
+  </head>
+
+  <body class="dk">
+    <script src="langLoader.js"></script>
+
+    <main>
+      {% include header.html %}
+      {{content}}
+    </main>
+    {% include footer.html %}
+    <!--Import JS-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="{{ site.baseurl }}/script.js"></script>
+  </body>
+</html>
