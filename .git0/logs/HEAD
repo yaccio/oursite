@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 acc02b64d51b66e60df59798a7a8d6ba8717445d anders <anders@yacc.io> 1480507650 +0100	commit (initial): jekyll first stuff
+acc02b64d51b66e60df59798a7a8d6ba8717445d 0e34fba8d45e417015f684cc0242f584a02dbec7 anders <anders@yacc.io> 1480507714 +0100	pull origin master: Merge made by the 'recursive' strategy.
+0e34fba8d45e417015f684cc0242f584a02dbec7 03f2023ec0023112d789e75baf1f67d3e08afcf3 anders <anders@yacc.io> 1480522636 +0100	commit: plz work
+03f2023ec0023112d789e75baf1f67d3e08afcf3 5fdf5f18914bf7c784fa102106cf748c7db808c8 anders <anders@yacc.io> 1480524173 +0100	commit: now posts are looped over
+5fdf5f18914bf7c784fa102106cf748c7db808c8 679d2b1a73f9e7aa5c03604658d9a433cc6333a6 anders <anders@yacc.io> 1481711248 +0100	commit: made new template for frontpage
+679d2b1a73f9e7aa5c03604658d9a433cc6333a6 ea0dfd1917357212bfa71593f1ab3324e0d26522 anders <anders@yacc.io> 1481722778 +0100	commit: added new collection
+ea0dfd1917357212bfa71593f1ab3324e0d26522 705b882036a054af2a44b67c2da25ba7165330b6 anders <anders@yacc.io> 1481725947 +0100	commit: new layout and shit
+705b882036a054af2a44b67c2da25ba7165330b6 b3962a690d3329c9b27a6e6f7ddfe879fd24c91d anders <anders@yacc.io> 1481726085 +0100	commit: fixed styling maybe
+b3962a690d3329c9b27a6e6f7ddfe879fd24c91d 93404625c66a5c2ed4e3219de07b41f5e89e3920 anders <anders@yacc.io> 1481735031 +0100	commit: new camo
