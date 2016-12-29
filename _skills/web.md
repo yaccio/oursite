@@ -1,6 +1,6 @@
 ---
 title: "Web"
-technologies: "TODO"
+technologies: "Server-side, Client-side/SPA, API"
 ---
 <span lang="dk">
   Udvikling af webapplikationer og hjemmesider, herunder design og implementering.

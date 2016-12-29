@@ -16,10 +16,9 @@ layout: base
   <section class="container">
     <div class="case-text">
       <h3>
-        <span lang="en">Software & Web development</span>
-        <span lang="dk">Software & Web udvikling</span>
+        <span lang="en">What we do</span>
+        <span lang="dk">Hvad vi laver</span>
       </h3>
-      <h5>Machine Learning, Alghorithmz, Awesomeness</h5>
       <p>
         <span lang="en">In Yacc.io we are capable of handling a wide variety of tasks within the area of software engineering. This includes product development, cloud computing, IT deployment and -infrastructure management, database setup, and software maintenance.</span>
         <span lang="dk">I Yacc.io er vi i stand til at håndtere en bred
@@ -31,8 +30,8 @@ layout: base
     <div class="row skill-row">
       {% for skill in site.skills %}
 
-        <div class="l3 s1">
-          <div class="skills-box">
+        <div class="skill l3 s1">
+          <div class="skill-background">
             <h4>
               {% if skill.title %}
                 {{ skill.title }}
@@ -44,6 +43,7 @@ layout: base
             <p>
               {{skill.content}}
             </p>
+            <p><strong>Technologies:</strong> {{ skill.technologies}}</p>
           </div>
         </div>
 

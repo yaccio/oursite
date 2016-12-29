@@ -1,6 +1,6 @@
 ---
 title: "Apps"
-technologies: "TODO"
+technologies: "iOS, Android, Web native, React Native"
 ---
 <span lang="dk">
   Udvikling af webapplikationer og hjemmesider, herunder design og implementering.

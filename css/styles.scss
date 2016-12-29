@@ -117,7 +117,7 @@ h4 {
 	font-size: 1.3em;
 	letter-spacing: 4px;
 	text-transform: uppercase;
-	padding-bottom: 10px;
+	padding: 10px 0;
   line-height: 1.3em;
 }
 
@@ -230,7 +230,7 @@ ul li {
 .skill-row {
 	justify-content: flex-start;
 
-	.l6, .l5, .l4, .l3, .l2, .l1 {
+	.skill {
 		padding: 5px;
 		@media(max-width: 1000px) {
 			padding: 0;
@@ -240,6 +240,25 @@ ul li {
 			@media(max-width: 1000px) {
 				display: none;
 			}
+		}
+	}
+
+	.skill:nth-of-type(even) {
+		.skill-background {
+			background-color: $base03;
+			color: $base0;
+		}
+	}
+
+	.skill-background {
+		background-color: $base02;
+		color: $base1;
+		padding: 20px;
+	  height: 100%;
+
+		p {
+			padding: 0;
+			margin-bottom: 10px;
 		}
 	}
 }
@@ -410,13 +429,6 @@ nav .logo {
     width: auto;
     padding: 20px 20px;
   }
-}
-
-.skills-box {
-	background-color: $base02;
-	color: $base0;
-	padding: 20px;
-  height: 100%;
 }
 
 @media (max-width: 1000px) {
