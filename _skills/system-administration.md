@@ -1,9 +1,10 @@
 ---
-title: "Web"
+title-en: "System Administration"
+title-da: "System&#173;administration"
 technologies: "TODO"
 ---
 <span lang="dk">
-  Udvikling af webapplikationer og hjemmesider, herunder design og implementering.
+  *Udvikling* af webapplikationer og hjemmesider, herunder design og implementering.
   Brug af diverse applikationsarkitekturer såsom server-side rendering, single
   page applikationer og API udvikling.
 </span>

@@ -1,5 +1,5 @@
 ---
-title: "Web"
+title: "Database & Data warehouse"
 technologies: "TODO"
 ---
 <span lang="dk">

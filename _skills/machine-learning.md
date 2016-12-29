@@ -1,5 +1,5 @@
 ---
-title: "Web"
+title: "Machine Learning & AI"
 technologies: "TODO"
 ---
 <span lang="dk">

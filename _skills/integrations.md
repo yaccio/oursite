@@ -1,5 +1,6 @@
 ---
-title: "Web"
+title-en: "Integrations"
+title-da: "Integrationer"
 technologies: "TODO"
 ---
 <span lang="dk">

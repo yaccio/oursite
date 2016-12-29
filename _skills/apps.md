@@ -1,5 +1,5 @@
 ---
-title: "Web"
+title: "Apps"
 technologies: "TODO"
 ---
 <span lang="dk">

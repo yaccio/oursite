@@ -28,15 +28,19 @@ layout: base
           -infrastruktur ledelse, database setup, og software vedligeholdelse.</span>
       </p>
     </div>
-    <div class="row">
+    <div class="row skill-row">
       {% for skill in site.skills %}
 
-        <div class="case-text l3">
+        <div class="l3 s1">
           <div class="skills-box">
-            <h3>
-              <span lang="en">{{ skill.title-en }}</span>
-              <span lang="dk">{{ skill.title-da }}</span>
-            </h3>
+            <h4>
+              {% if skill.title %}
+                {{ skill.title }}
+              {% else %}
+                <span lang="en">{{ skill.title-en }}</span>
+                <span lang="dk">{{ skill.title-da }}</span>
+              {% endif %}
+            </h4>
             <p>
               {{skill.content}}
             </p>

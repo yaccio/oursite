@@ -114,8 +114,11 @@ p.smaller,
 }
 
 h4 {
-	font-size: 1.2em;
-	margin: 10px 0;
+	font-size: 1.3em;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+  line-height: 1.3em;
 }
 
 .text-left,
@@ -224,6 +227,23 @@ ul li {
 	flex-wrap: wrap;
 }
 
+.skill-row {
+	justify-content: flex-start;
+
+	.l6, .l5, .l4, .l3, .l2, .l1 {
+		padding: 5px;
+		@media(max-width: 1000px) {
+			padding: 0;
+			margin-bottom: 10px;
+		}
+		p {
+			@media(max-width: 1000px) {
+				display: none;
+			}
+		}
+	}
+}
+
 .col {
   padding-left: 5px;
 	padding-top: 0;
@@ -250,7 +270,6 @@ ul li {
 .row .l4 {
 	width: 25%;
 	box-sizing: border-box;
-	padding: 5px;
 }
 
 .row .l3 {
@@ -397,6 +416,7 @@ nav .logo {
 	background-color: $base02;
 	color: $base0;
 	padding: 20px;
+  height: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -408,9 +428,8 @@ nav .logo {
 .case-text {
 	width: 50%;
 	padding: 20px;
-}
-@media(max-width: 1000px) {
-	.case-text {
+
+	@media(max-width: 1000px) {
 		width: 100%;
 		padding: 0;
 		padding-bottom: 20px;
@@ -440,20 +459,12 @@ h3 {
 
 .case-text h4,
 .case-section h4 {
-	font-size: 1.3em;
-	letter-spacing: 4px;
-	text-transform: uppercase;
-	padding-bottom: 20px;
-	padding-bottom: 10px;
-  line-height: 1.3em;
 	color: $blue;
 }
 
 .case-sidenote h4 {
 	margin-top: 70px;
-}
-@media(max-width: 1000px) {
-	.case-sidenote h4 {
+	@media(max-width: 1000px) {
 		margin-top: 0;
 	}
 }
