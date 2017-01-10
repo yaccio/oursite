@@ -3,7 +3,7 @@
           xmlns:fb="http://ogp.me/ns/fb#">
   <head>
     <!--Import CSS-->
-
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" media="screen" title="no title" charset="utf-8">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -27,32 +27,15 @@
   </head>
 
   <body class="dk">
-    <script src="langLoader.js" async></script>
+    <script type="text/javascript" src="langLoader.js" async></script>
 
     <main>
       {% include header.html %}
       {{content}}
     </main>
     {% include footer.html %}
-    <!-- Defer CSS files -->
-    <noscript id="deferred-styles">
-      <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" media="screen" title="no title" charset="utf-8">
-    </noscript>
-    <script>
-      var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-    </script>
     <!--Import JS-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="{{ site.baseurl }}/script.js" async></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js" async></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/script.js" async></script>
   </body>
 </html>
