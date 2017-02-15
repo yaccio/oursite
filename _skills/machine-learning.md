@@ -1,14 +1,13 @@
 ---
 title: "Machine Learning & Artificial Intelligence"
-technologies: "TODO"
+technologies: "Python, Lua, NLP"
 ---
 <span lang="dk">
-  Udvikling af webapplikationer og hjemmesider, herunder design og implementering.
-  Brug af diverse applikationsarkitekturer såsom server-side rendering, single
-  page applikationer og API udvikling.
+    Med en solid teknisk forståelse som konstant ajourføres med de nyeste
+    strømninger i feltet samt praktisk erfaring med anvendelse af kunstig
+    intelligens yder vi rådgivning samt udvikling af sådanne systemer. AI
+    systemer er komplekse, og vi gør en dyd ud af at få disse til at passe
+    ind i en forretning snarere end at se det som værktøjer, der står alene.
 </span>
 <span lang="en">
-  Development of web applications and websites, including design and
-  implementation. Use of different application architectures such as server-side
-  rendering, single page applications, and API development.
 </span>

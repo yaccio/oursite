@@ -1,15 +1,14 @@
 ---
 title-en: "Integrations"
 title-da: "Integrationer"
-technologies: "TODO"
+technologies: "REST, SOAP, .NET, Java"
 ---
 <span lang="dk">
-  Udvikling af webapplikationer og hjemmesider, herunder design og implementering.
-  Brug af diverse applikationsarkitekturer såsom server-side rendering, single
-  page applikationer og API udvikling.
+    Udarbejdelse af integrationer til forskellige, især offentlige, systemer
+    med forskellig grad af kompleksitet og forskellige grænseflader.
+    Eksempler på integrationer inkluderer: eSkatData, NemId,
+    Kreditscoringsplatforme samt automatisering af vareforsendelser via
+    fragtselskaber.
 </span>
 <span lang="en">
-  Development of web applications and websites, including design and
-  implementation. Use of different application architectures such as server-side
-  rendering, single page applications, and API development.
 </span>

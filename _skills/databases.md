@@ -1,14 +1,15 @@
 ---
 title: "Database & Data warehouse"
-technologies: "TODO"
+technologies: "RDS, Redshift, SQL Server, AWS, Azure"
 ---
 <span lang="dk">
-  Udvikling af webapplikationer og hjemmesider, herunder design og implementering.
-  Brug af diverse applikationsarkitekturer såsom server-side rendering, single
-  page applikationer og API udvikling.
+    Opsætning, tuning og vedligehold af systemer baseret på større datamængder
+    og quering af disse. Herunder query design og optimering samt den
+    løbende drift og vedligeholdelse af cloud baserede databasesystemer.
 </span>
 <span lang="en">
-  Development of web applications and websites, including design and
-  implementation. Use of different application architectures such as server-side
-  rendering, single page applications, and API development.
+    Setup, tuning and maintenance of solutions based on large amounts of
+    business data and querying of these. Both query design and optimization
+    as well as ongoing management and maintenance of cloud based database
+    solutions.
 </span>

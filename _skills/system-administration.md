@@ -1,15 +1,12 @@
 ---
 title-en: "System Administration"
 title-da: "System&#173;administration"
-technologies: "TODO"
+technologies: "Linux, Docker, Docker Swarm, AWS, Azure"
 ---
 <span lang="dk">
-  *Udvikling* af webapplikationer og hjemmesider, herunder design og implementering.
-  Brug af diverse applikationsarkitekturer såsom server-side rendering, single
-  page applikationer og API udvikling.
+    Opsætning og vedligehold af hosting setups både cloud baseret samt på
+    dedikeret hardware. Solide kompetencer indenfor Linux administration
+    samt indenfor det nyeste i containerization såsom Docker Swarm.
 </span>
 <span lang="en">
-  Development of web applications and websites, including design and
-  implementation. Use of different application architectures such as server-side
-  rendering, single page applications, and API development.
 </span>

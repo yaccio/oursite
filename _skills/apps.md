@@ -1,14 +1,11 @@
 ---
 title: "Apps"
-technologies: "iOS, Android, Web native, React Native"
+technologies: "iOS, Android, HTML5 apps, React Native"
 ---
 <span lang="dk">
-  Udvikling af webapplikationer og hjemmesider, herunder design og implementering.
-  Brug af diverse applikationsarkitekturer såsom server-side rendering, single
-  page applikationer og API udvikling.
+    Udvikling af mobilapplikationer med kompetencer indenfor native
+    udvikling til både iOS og Android samt det nyeste indenfor HTML5 / web
+    baserede cross platform løsninger, senest React Native.
 </span>
 <span lang="en">
-  Development of web applications and websites, including design and
-  implementation. Use of different application architectures such as server-side
-  rendering, single page applications, and API development.
 </span>
