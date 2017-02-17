@@ -1,6 +1,8 @@
 ---
-title: "Web"
+title: "Web Design"
 technologies: ".NET, Java, Clojure, Scala, Python, PHP, ReactJS, Angular"
+description-da: "Udvikling af webapplikationer og hjemmesider, herunder design og implementering."
+description-en: "Development of web applications and websites, including design and implementation."
 ---
 <span lang="dk">
     Udvikling af webapplikationer og hjemmesider, herunder design og

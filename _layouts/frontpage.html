@@ -30,7 +30,7 @@ layout: base
     <div class="row skill-row">
       {% for skill in site.skills %}
 
-        <div class="skill l3 s1">
+        <div class="skill">
           <div class="skill-background">
             <h4>
               {% if skill.title %}
@@ -40,10 +40,6 @@ layout: base
                 <span lang="dk">{{ skill.title-da }}</span>
               {% endif %}
             </h4>
-            <p>
-              {{skill.content}}
-            </p>
-            <p><strong>Technologies:</strong> {{ skill.technologies}}</p>
           </div>
         </div>
 

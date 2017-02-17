@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning & Artificial Intelligence"
+title: "Machine Learning & AI"
 technologies: "Python, Lua, NLP"
 ---
 <span lang="dk">
