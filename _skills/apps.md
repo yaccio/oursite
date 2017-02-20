@@ -1,8 +1,17 @@
 ---
 title: "Mobile Apps"
-technologies: "iOS, Android, HTML5 apps, React Native"
-description-da: "Udvikling af mobilapplikationer til iOS og Android."
-description-en: "Development of mobileapplications for iOS and Android."
+technologies:
+- title: iOS
+  icon: apple-original
+
+- title: Android
+  icon: android-plain
+
+- title: HTML5 apps
+  icon: html5-plain
+
+- title: React Native
+  icon: react-original
 ---
 <span lang="dk">
     Udvikling af mobilapplikationer med kompetencer indenfor native
@@ -10,5 +19,5 @@ description-en: "Development of mobileapplications for iOS and Android."
     baserede cross platform løsninger, senest React Native.
 </span>
 <span lang="en">
-    Development of mobileapplications with competences
+    Development of mobileapplications with experience in native development in both iOS and Android, along with the latest HTML5/web based cross platform solutions. We are developing mobile platforms in React Native as well.
 </span>

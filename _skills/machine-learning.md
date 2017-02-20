@@ -1,6 +1,14 @@
 ---
 title: "Machine Learning & AI"
-technologies: "Python, Lua, NLP"
+technologies:
+- title: Python
+  icon: python-plain
+
+- title: Lua
+- title: NLP
+
+- title: C++
+  icon: cplusplus-plain
 ---
 <span lang="dk">
     Med en solid teknisk forståelse som konstant ajourføres med de nyeste

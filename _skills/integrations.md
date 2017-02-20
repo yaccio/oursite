@@ -1,7 +1,24 @@
 ---
 title-en: "Integrations"
 title-da: "Integrationer"
-technologies: "REST, SOAP, .NET, Java"
+technologies:
+- title: REST
+
+- title: SOAP
+
+- title: .NET
+  icon: dot-net-plain
+
+- title: C#
+  icon: csharp-plain
+
+- title: Java
+  icon: java-plain
+
+- title: Scala
+
+- title: Go
+  icon: go-plain
 ---
 <span lang="dk">
     Udarbejdelse af integrationer til forskellige, især offentlige, systemer

@@ -1,6 +1,31 @@
 ---
 title: "Database & Data warehouse"
-technologies: "RDS, Redshift, SQL Server, AWS, Azure"
+technologies:
+  - title: RDS
+    icon: amazonwebservices-original
+
+  - title: Redshift
+    icon: amazonwebservices-original
+
+  - title: SQL Server
+    icon: windows8-original
+
+  - title: AWS
+    icon: amazonwebservices-original
+
+  - title: Microsoft Azure
+    icon: windows8-original
+
+  - title: MongoDB
+    icon: mongodb-plain
+
+  - title: PostgreSQL
+    icon: postgresql-plain
+
+  - title: MySQL
+    icon: mysql-plain
+
+
 ---
 <span lang="dk">
     Opsætning, tuning og vedligehold af systemer baseret på større datamængder

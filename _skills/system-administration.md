@@ -1,7 +1,24 @@
 ---
 title-en: "System Administration"
 title-da: "System&#173;administration"
-technologies: "Linux, Docker, Docker Swarm, AWS, Azure"
+technologies:
+- title: Linux
+  icon: linux-plain
+
+- title: Docker
+  icon: docker-plain
+
+- title: Docker Swarm
+  icon: docker-plain
+
+- title: AWS
+  icon: amazonwebservices-original
+
+- title: Microsoft Azure
+  icon: windows8-original
+
+- title: Heroku
+  icon: heroku-original
 ---
 <span lang="dk">
     Opsætning og vedligehold af hosting setups både cloud baseret samt på
