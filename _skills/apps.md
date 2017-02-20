@@ -19,5 +19,8 @@ technologies:
     baserede cross platform løsninger, senest React Native.
 </span>
 <span lang="en">
-    Development of mobileapplications with experience in native development in both iOS and Android, along with the latest HTML5/web based cross platform solutions. We are developing mobile platforms in React Native as well.
+    Development of mobileapplications with experience in native development
+    in both iOS and Android, along with the latest HTML5/web based
+    cross platform solutions. We are developing mobile platforms in
+    React Native as well.
 </span>
