@@ -2,11 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
           xmlns:fb="http://ogp.me/ns/fb#">
   <head>
-    <!--Import Google Fonts-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!--Import CSS-->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" media="screen" title="no title" charset="utf-8">
 
@@ -34,7 +29,7 @@
   </head>
 
   <body class="dk">
-    <script src="langLoader.js"></script>
+    <script type="text/javascript" src="langLoader.js" async></script>
 
     <main>
       {% include header.html %}
@@ -42,7 +37,7 @@
     </main>
     {% include footer.html %}
     <!--Import JS-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="{{ site.baseurl }}/script.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js" async></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/script.js" async></script>
   </body>
 </html>
