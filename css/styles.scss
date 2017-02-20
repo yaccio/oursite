@@ -271,14 +271,11 @@ ul li {
 	  height: 100%;
 		border: 1px solid $base03;
 		transition: all 0.3s ease;
-		&:hover {
-			background-color: $base03;
-			color: $base0;
-		}
 
 		h4 {
 			font-size: 1em;
 			padding: 0;
+			font-weight: 400;
 		}
 
 		p {
