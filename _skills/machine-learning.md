@@ -18,4 +18,9 @@ technologies:
     ind i en forretning snarere end at se det som værktøjer, der står alene.
 </span>
 <span lang="en">
+  With a solid technical understanding that is constantly up-to-date with the
+  latest trends in the field and practical experience in use of artificial
+  intelligence we provide the counseling and development of these systems.
+  AI systems are complex and it is important to us to make them 
+  fit into a business rather than see it as tools that stands alone.
 </span>

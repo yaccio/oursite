@@ -26,4 +26,7 @@ technologies:
     samt indenfor det nyeste i containerization såsom Docker Swarm.
 </span>
 <span lang="en">
+    Setup and maintenance of hosting setups, both cloud based as well as on
+    dedicated hardware. Solid competences in Linux administration and the latest
+    containerization like Docker Swarm.
 </span>
