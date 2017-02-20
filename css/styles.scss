@@ -116,8 +116,19 @@ p.smaller,
 }
 
 h4 {
-	font-size: 1.2em;
-	margin: 10px 0;
+	font-size: 1.3em;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	padding: 10px 0;
+  line-height: 1.3em;
+}
+
+h5 {
+	font-size: 1.1em;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	padding: 10px 0;
+  line-height: 1.1em;
 }
 
 .text-left,
@@ -226,6 +237,57 @@ ul li {
 	flex-wrap: wrap;
 }
 
+.skill-row {
+	justify-content: flex-start;
+	padding: 20px;
+	max-width: 70%;
+	@media(max-width: 1000px) {
+		max-width: 100%;
+		padding: 0;
+		padding-bottom: 20px;
+	}
+
+	h5 {
+		padding-bottom: 20px;
+		font-size: 1.3em;
+	}
+
+	.skill {
+		padding: 5px 0;
+		padding-right: 10px;
+		@media(max-width: 1000px) {
+			padding: 0;
+			margin-bottom: 10px;
+		}
+		p {
+			@media(max-width: 1000px) {
+				display: none;
+			}
+		}
+	}
+
+	.skill-background {
+		padding: 15px;
+	  height: 100%;
+		border: 1px solid $base03;
+		transition: all 0.3s ease;
+		&:hover {
+			background-color: $base03;
+			color: $base0;
+		}
+
+		h4 {
+			font-size: 1em;
+			padding: 0;
+		}
+
+		p {
+			padding: 0;
+			margin-bottom: 10px;
+		}
+	}
+}
+
 .col {
   padding-left: 5px;
 	padding-top: 0;
@@ -252,7 +314,6 @@ ul li {
 .row .l4 {
 	width: 25%;
 	box-sizing: border-box;
-	padding: 5px;
 }
 
 .row .l3 {
@@ -366,6 +427,11 @@ nav .logo {
 	background-position: bottom;
 }
 
+.cover-technologies {
+	background-image: url('../assets/technologies.jpg') !important;
+	background-position: bottom;
+}
+
 .text-col {
   position: absolute;
   bottom: -20px;
@@ -395,12 +461,6 @@ nav .logo {
   }
 }
 
-.skills-box {
-	background-color: $base02;
-	color: $base0;
-	padding: 20px;
-}
-
 @media (max-width: 1000px) {
   .case-container {
     flex-direction: column-reverse;
@@ -410,9 +470,8 @@ nav .logo {
 .case-text {
 	width: 50%;
 	padding: 20px;
-}
-@media(max-width: 1000px) {
-	.case-text {
+
+	@media(max-width: 1000px) {
 		width: 100%;
 		padding: 0;
 		padding-bottom: 20px;
@@ -442,20 +501,12 @@ h3 {
 
 .case-text h4,
 .case-section h4 {
-	font-size: 1.3em;
-	letter-spacing: 4px;
-	text-transform: uppercase;
-	padding-bottom: 20px;
-	padding-bottom: 10px;
-  line-height: 1.3em;
 	color: $blue;
 }
 
 .case-sidenote h4 {
 	margin-top: 70px;
-}
-@media(max-width: 1000px) {
-	.case-sidenote h4 {
+	@media(max-width: 1000px) {
 		margin-top: 0;
 	}
 }
@@ -644,6 +695,59 @@ a.contact-link h2 {
 
 .collapsed-case .close:hover {
 	opacity: 1.0;
+}
+
+.expertises {
+	display: flex;
+	flex-wrap: wrap;
+
+	.expertise {
+		width: 100%;
+		color: $base03;
+		border-top: 1px solid $base01;
+		section {
+			padding: 20px 0;
+		}
+	}
+
+	.expertise-text {
+		max-width: 50%;
+		padding: 20px;
+		@media(max-width: 1000px) {
+			max-width: 100%;
+			padding: 0;
+		}
+
+		.technologies-we-use {
+			text-transform: uppercase;
+			font-weight: lighter;
+		}
+	}
+
+	.technologies-container {
+		display: flex;
+		flex-wrap: wrap;
+		.tag {
+			padding: 5px 15px;
+	    border: 1px solid $base03;
+	    margin: 5px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: flex-start;
+			@media(max-width: 767px) {
+				width: calc(50% - 10px);
+		    font-size: 0.9em;
+				line-height: 1.5;
+			}
+			i {
+				font-size: 2em;
+				margin-right: 10px;
+			}
+			i.devicon- {
+				display: none;
+			}
+		}
+	}
 }
 
 .github {

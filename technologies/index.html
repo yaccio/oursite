@@ -1,0 +1,66 @@
+---
+layout: base
+title: Cases
+---
+
+<div class="cover cover-technologies">
+  <div class="container">
+    <div class="text-col dark-light">
+      <h1>
+        <span lang="en">In Yacc.io we are capable of handling a wide variety of tasks within the area of software engineering.</span>
+        <span lang="dk">I Yacc.io er vi i stand til at håndtere en bred vifte af opgaver inden for software engineering.</span>
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="light">
+  <section class="container">
+    <div class="row">
+      <div class="s1 case-text">
+        <h3>
+          <span lang="en">competences & Technologies</span>
+          <span lang="dk">Kompetencer & teknologier</span>
+        </h3>
+        <p>
+          <span lang="en">On this page we have compiled some of the jobs we have done, to showcase our skillset and abilities in software development, integration, and maintenance. If you have questions feel free to <a href="/contact">contact us</a> at any time.</span>
+          <span lang="dk">På denne side kan du læse om hvad vi primært arbejder med, samt hvilke teknologier vi benytter os af indenfor software udvikling, integration, vedligeholdelse, m.fl. Hvis du har nogle spørgsmål om så er du altid velkommen til at <a href="/contact">kontakte os</a>.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="expertises">
+{% for skill in site.skills %}
+  <div class="expertise">
+    <section class="container">
+      <div class="expertise-text">
+        <h3>
+          {% if skill.title %}
+            {{ skill.title }}
+          {% else %}
+            <span lang="en">{{ skill.title-en }}</span>
+            <span lang="dk">{{ skill.title-da }}</span>
+          {% endif %}
+        </h3>
+        {{ skill.content }}
+        <p>
+          <strong class="technologies-we-use">
+            <span lang="en">Technologies we use:</span>
+            <span lang="dk">Teknologier vi benytter:</span>
+          </strong>
+        </p>
+        <div class="technologies-container">
+          {% for tech in skill.technologies %}
+            <p class="tag">
+              <i class="devicon-{{tech.icon}}"></i>
+              {{tech.title}}
+            </p>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  </div>
+{% endfor %}
+</div>

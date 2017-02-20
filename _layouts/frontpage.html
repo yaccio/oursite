@@ -13,6 +13,55 @@ layout: base
   </div>
 </div>
 
+<div class="light">
+  <section class="container">
+    <div class="case-text">
+      <h3>
+        <span lang="en">Our competencies</span>
+        <span lang="dk">Vores kompetencer</span>
+      </h3>
+      <p>
+        <span lang="en">In Yacc.io we are capable of handling a wide variety of tasks within the area of software engineering. This includes product development, cloud computing, IT deployment and -infrastructure management, database setup, and software maintenance.</span>
+        <span lang="dk">I Yacc.io er vi i stand til at håndtere en bred
+          vifte af opgaver inden for software engineering. Dette omfatter
+          produktudvikling, cloud computing, IT implementering og
+          -infrastruktur ledelse, database setup, og software vedligeholdelse.</span>
+      </p>
+    </div>
+
+    <div class="row skill-row">
+      <div style="width:100%;">
+        <h5>
+          <span lang="en">This is what we do</span>
+          <span lang="dk">Det laver vi</span>
+        </h5>
+      </div>
+      {% for skill in site.skills %}
+
+        <div class="skill">
+          <div class="skill-background">
+            <h4>
+              {% if skill.title %}
+                {{ skill.title }}
+              {% else %}
+                <span lang="en">{{ skill.title-en }}</span>
+                <span lang="dk">{{ skill.title-da }}</span>
+              {% endif %}
+            </h4>
+          </div>
+        </div>
+
+      {% endfor %}
+    </div>
+    <div class="case-text">
+      <a href="/technologies">
+        <span lang="dk">Du kan læse mere om hvilke teknologier vi benytter i vores løsninger her</span>
+        <span lang="en">You can read more about which technologies we use in our solutions here</span>
+      </a>
+    </div>
+  </section>
+</div>
+
 <div class="dark">
   <section class="container cases-container" id="section-cases">
     <div class="case-text">
