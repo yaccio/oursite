@@ -340,63 +340,72 @@ ul li {
 
 /* NAVIGATION */
 
-nav .nav-links a {
-	opacity: 0.65;
-	transition: opacity ease 0.3s;
-	cursor: pointer;
-	color: inherit;
-}
-
-nav .nav-links a:hover {
-	opacity: 1.0;
-}
-
-nav .nav-links img {
-	height: 12px;
-	margin-right: 5px;
-}
-
 nav {
-  padding: 1.5em 8% 1em;
+	padding: 1.5em 8% 1em;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-}
-@media(max-width: 1000px) {
-	nav {
+	@media(max-width: 1000px) {
 		text-align: center;
 		padding: 15px 5px 5px;
 	}
-}
 
-nav .nav-links {
-	float: right;
-}
-@media(max-width: 1000px) {
-	nav .nav-links {
-		float: none;
+	.right {
+	  float: right;
+	  margin-left: 30px;
+	  font-size: 1rem;
+	  line-height: 39px;
+	  text-transform: uppercase;
+		@media(max-width: 1000px) {
+			float: none;
+			margin: 0 12px;
+		}
 	}
-}
 
-nav .right {
-  float: right;
-  margin-left: 30px;
-  font-size: 1rem;
-  line-height: 39px;
-  text-transform: uppercase;
-}
-@media(max-width: 1000px) {
-	nav .right {
-		float: none;
-		margin: 0 12px;
+	.logo {
+	  font-size: 2em;
+		@media(max-width: 1000px) {
+			display: block;
+		}
 	}
-}
 
-nav .logo {
-  font-size: 2em;
-}
-@media(max-width: 1000px) {
-	nav .logo {
-		display: block;
+	.nav-links {
+		float: right;
+		@media(max-width: 1000px) {
+			float: none;
+		}
+
+		a {
+			opacity: 0.65;
+			transition: opacity ease 0.3s;
+			cursor: pointer;
+			color: inherit;
+			&:hover {
+				opacity: 1.0;
+			}
+		}
+
+		img {
+			height: 12px;
+			margin: 0 5px;
+			position: relative;
+			bottom: 1px;
+		}
+
+		.language-change {
+			display: flex;
+			align-items: center;
+			@media(max-width: 768px) {
+				display: inline-block;
+			}
+			b {
+				font-size: 0.7em;
+				font-weight: normal;
+				vertical-align: middle;
+				@media(max-width: 767px) {
+					display: none;
+				}
+			}
+		}
 	}
 }
 
@@ -426,7 +435,8 @@ nav .logo {
 
 .cover-technologies {
 	background-image: url('../assets/technologies.jpg') !important;
-	background-position: bottom;
+	background-position: center;
+	height: 250px;
 }
 
 .text-col {
@@ -688,10 +698,9 @@ a.contact-link h2 {
 	cursor: pointer;
 	font-size: 1.5em;
 	opacity: 0.85;
-}
-
-.collapsed-case .close:hover {
-	opacity: 1.0;
+	&:hover {
+		opacity: 1.0;
+	}
 }
 
 .expertises {
