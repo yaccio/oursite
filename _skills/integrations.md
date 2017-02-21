@@ -1,6 +1,7 @@
 ---
 title-en: "Integrations"
 title-da: "Integrationer"
+image: integrations.jpg
 technologies:
 - title: REST
 
@@ -19,6 +20,13 @@ technologies:
 
 - title: Go
   icon: go-plain
+
+- title: AWS Kinesis
+  icon: amazonwebservices-original
+
+- title: Kafka
+
+- title: RabbitMQ
 ---
 <span lang="dk">
     Udarbejdelse af integrationer til forskellige, især offentlige, systemer

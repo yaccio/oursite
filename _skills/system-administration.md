@@ -1,6 +1,7 @@
 ---
 title-en: "System Administration"
 title-da: "System&#173;administration"
+image: systemadmin.jpg
 technologies:
 - title: Linux
   icon: linux-plain
@@ -19,6 +20,9 @@ technologies:
 
 - title: Heroku
   icon: heroku-original
+
+- title: AWS Lambda
+  icon: amazonwebservices-original
 ---
 <span lang="dk">
     Opsætning og vedligehold af hosting setups både cloud baseret samt på

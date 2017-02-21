@@ -1,5 +1,6 @@
 ---
 title: "Database & Data warehouse"
+image: database.jpg
 technologies:
   - title: RDS
     icon: amazonwebservices-original
@@ -25,6 +26,7 @@ technologies:
   - title: MySQL
     icon: mysql-plain
 
+  - title: RethinkDB
 
 ---
 <span lang="dk">
