@@ -1,0 +1,4 @@
+http://www.yacc.io/
+http://www.yacc.io/technologies/
+http://www.yacc.io/contact/
+Sitemap: http://www.yacc.io/sitemap.txt
