@@ -1,6 +1,6 @@
 ---
 title: "Database & Data warehouse"
-image: database.jpg
+image: database_small.png
 technologies:
   - title: RDS
     icon: amazonwebservices-original

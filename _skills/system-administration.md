@@ -1,7 +1,7 @@
 ---
 title-en: "System Administration"
 title-da: "System&#173;administration"
-image: systemadmin.jpg
+image: systemadmin_small.png
 technologies:
 - title: Linux
   icon: linux-plain

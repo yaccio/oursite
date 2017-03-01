@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning & AI"
-image: ai.jpg
+image: ai_small.png
 technologies:
 - title: Python
   icon: python-plain

@@ -1,6 +1,6 @@
 ---
 title: "Mobile Apps"
-image: app.jpg
+image: app_small.png
 technologies:
 - title: iOS
   icon: apple-original

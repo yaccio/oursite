@@ -1,6 +1,6 @@
 ---
 title: "Web Development"
-image: web.jpg
+image: web_small.png
 technologies:
 - title: .NET
   icon: dot-net-plain

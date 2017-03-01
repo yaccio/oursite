@@ -1,7 +1,7 @@
 ---
 title-en: "Integrations"
 title-da: "Integrationer"
-image: integrations.jpg
+image: integrations_small.png
 technologies:
 - title: REST
 
